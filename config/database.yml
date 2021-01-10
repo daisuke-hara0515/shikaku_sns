@@ -51,5 +51,5 @@ test:
 production:
   <<: *default
   database: shikaku_sns_production
-  username: shikaku_sns
-  password: <%= ENV['SHIKAKU_SNS_DATABASE_PASSWORD'] %>
+  username: root
+  password: nonstop0515  
