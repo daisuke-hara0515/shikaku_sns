@@ -1,5 +1,6 @@
 # config valid for current version and patch releases of Capistrano
-lock "~> 3.14.1"
+# lock "~> 3.14.1"
+lock "~> 3.15.0"
 
 set :application, "shikaku_sns"
 set :repo_url, "git@github.com:daisuke-hara0515/shikaku_sns.git"
