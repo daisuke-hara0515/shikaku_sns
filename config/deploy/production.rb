@@ -1,9 +1,9 @@
 server "54.249.196.6", user: "daifuku", roles: %w{app db web}
 
 set :ssh_options, {
-    keys: %w(~/.ssh/shikaku_sns.pem),
-    forward_agent: true,
-    auth_methods: %w(pulickey),
+  keys: %w(~/.ssh/shikaku_sns.pem),
+  forward_agent: true,
+  auth_methods: %w(publickey),
 }
 # server-based syntax
 # ======================
